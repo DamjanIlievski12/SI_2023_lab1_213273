@@ -1,0 +1,63 @@
+4. Иницијализација се прави преку командата git init.
+
+5. Го поврзувам локалното репо со remote репото преку  git add origin https://github.com/DamjanIlievski12/SI_2023_lab1_213273.git
+
+6. Правам README.md file во command prompt со echo. > README.md
+
+Потоа го додавам на staging area preku git add README.md
+
+Го комитувам фајлот преку командата git commit -m "Initial commit" README.md
+
+7. Истото го правам како со README фајлот освен што пораката ќе биде Add java class
+
+8. 
+
+9. Od master grankata kreirame 3 granki preku komandite: git branch bug1, git branch bug2, git branch bug3
+
+10. Се префрлам на гранката bug1 преку командата git checkout bug1
+
+11. Во фајлот SILab1.java го тргам = од for циклусот во main.
+
+git add SILab1.java
+
+git commit -m "Fix wrong loop for reading" SILab1.java
+
+12. git checkout bug2
+
+13. Менувам од 0 во 1 во функцијата FilterOddNumbers. 
+
+git add SILab1.java
+
+git commit -m "Fix wrong condition in filterOddNumbers" SILab1.java
+
+14. git checkout bug3 
+
+15. sum += el; Го менувам ова во функцијата
+
+git add SILab1.java
+
+git commit -m "Fix method sumEvenNumbers" SILab1.java
+
+16. Ја повикувам командата git fetch од секоја од гранките на мојот локален репо со цел да ги синхронизирам со remote repoto
+
+17. git checkout master - Се вракам на мастер гранката
+
+18. git merge bug1 - Ја соединувам гранката bug1 кон master со fast-forward
+
+19. git merge bug2 - Рекурзивно ја спојувам и bug2
+
+22. Za rebase na bug3 kon master:
+
+git checkout bug3
+
+git rebase master
+
+git checkout master
+
+git merge bug3
+
+26. Со командата git push --all origin, сите гранки кои ги креирав на моето локално репо ке бидат додадени и на мојот remote репозиториум.
+
+27. 
+
+

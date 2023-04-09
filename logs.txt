@@ -1,0 +1,28 @@
+commit 20f8c888182effdae92c4b194438401fb9ff5ad3 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: DamjanIlievski12 <i.damjan420@gmail.com>
+Date:   Sun Apr 9 17:00:11 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 2582b597f14d371a77035383dbb819e77e318c2d
+Merge: bbd0ae1 ab336f1
+Author: DamjanIlievski12 <i.damjan420@gmail.com>
+Date:   Sun Apr 9 17:07:18 2023 +0200
+
+    Merge branch 'bug2'
+
+commit ab336f141d74e58478a49dbc8465b67a3574bc37 (origin/bug2, bug2)
+Author: DamjanIlievski12 <i.damjan420@gmail.com>
+Date:   Sun Apr 9 16:56:57 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit bbd0ae194f66a6cea262f86b2544765013eb5ddf (origin/bug1, bug1)
+Author: DamjanIlievski12 <i.damjan420@gmail.com>
+Date:   Sun Apr 9 16:53:51 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 5056bfb9d708a1220db189510feff296e9cc608d
+Author: DamjanIlievski12 <i.damjan420@gmail.com>
+Date:   Sun Apr 9 16:47:36 2023 +0200
